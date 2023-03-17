@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Marketsubscriber
+Bundle-SymbolicName: com.ems.marketsubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.ems.marketsubscriber.Activator
+Bundle-Vendor: EMS
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Automatic-Module-Name: com.ems.marketsubscriber
+Import-Package: com.ems.billproducer,
+ com.ems.deliveryproducer,
+ com.ems.empproducer,
+ com.ems.storeproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

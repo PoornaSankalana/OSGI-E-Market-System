@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Empsubscriber
+Bundle-SymbolicName: com.ems.empsubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.ems.empsubscriber.Activator
+Bundle-Vendor: EMS
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Automatic-Module-Name: com.ems.empsubscriber
+Import-Package: com.ems.empproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Billsubscriber
+Bundle-SymbolicName: com.ems.billsubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.ems.billsubscriber.Activator
+Bundle-Vendor: EMS
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Automatic-Module-Name: com.ems.billsubscriber
+Import-Package: com.ems.billproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
